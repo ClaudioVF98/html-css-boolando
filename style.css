@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.item {
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.item:nth-of-type(3n+1) {
+    margin-left: 0;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px;
+    background-color: white;
+}
+
+.sconto {
+    position: absolute;
+    bottom: 70px;
+}
+
+.red {
+    background-color: red;
+    float: left;
+    margin-right: 3px;
+    color: white;
+}
+
+.green {
+    background-color: rgb(59, 168, 59);
+    float: left;
+    color: white;
+}
+
+.firstinfo {
+    color: lightgray;
+    font-size: 12px;
+}
+
+.secondinfo {
+    color: rgb(226, 43, 171);
+    font-size: 12px;
+}
+
+del {
+    color: lightgray;
+}
+
+.item .firstimage:hover {
+    content: url(img/1b.webp);
+}
+
+.item .secondimage:hover {
+    content: url(img/2b.webp);
+}
+
+.item .thirdimage:hover {
+    content: url(img/3b.webp);
+}
+
+.item .fourthimage:hover {
+    content: url(img/4b.webp);
+}
+
+.item .fifthimage:hover {
+    content: url(img/5b.webp);
+}
+
+.item .sixthimage:hover {
+    content: url(img/6b.webp);
+}
